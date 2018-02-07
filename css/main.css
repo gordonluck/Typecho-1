@@ -4,6 +4,42 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
+/* =======================================额外css========================================= */
+
+body
+{color:#333;font-family:"Microsoft JhengHei",Apple LiGothic Medium,Microsoft YaHei,蘋果儷中黑,微軟正黑體,微软雅黑,"Arial",sans-serif;font-size:87.5%;}
+h1,h2,h3,h4,h5{font-weight:normal;}
+
+/* 邮箱页面 标题*/
+h3{border-left:2px solid #d62626;padding:0 0 0 0.8em;}
+
+/* 邮箱页面 忘记密码*/
+.bizmail_SubmitArea a{padding:0 0 0 1em;text-decoration:none;font-size:70%;font-color:#A9A9A9;}
+.bizmail_SubmitArea a:hover{font-size:75%;font-color:#696969;}
+.bizmail_SubmitArea input
+
+/* 邮箱页面 登录按钮*/
+{border-radius:0px 100px 100px 100px;border:1px solid #696969;height:2em;margin:5px 0;background:#FFFFFF;}
+.bizmail_SubmitArea input:hover{background:rgba(214,38,38,0.8); color:#FFFFFF;box-shadow: 2px 2px 2px rgba(214,38,38,0.5);border:0px solid #696969;}
+
+/* 邮箱页面 输入框*/
+.bizmail_inputArea input{width:12em;margin:0 0 5px;border-radius:100px 0px 100px 100px;}
+.bizmail_inputArea input:hover{width:15em;height:1.8em;margin:0 0 5px;}
+
+/* 首页-阅读更多 */
+.item-readmore{font-size:10px;color:#5f5f5f;margin:10px 0 0 0;}
+.item-readmore a:hover{color:#ffffff;background:#5f5f5f;}
+.item-readmore a{padding:2px 4px;color:#5f5f5f;border:1px solid #5f5f5f;border-radius:20px;}
+
+/* 评论区提示 */
+.widget-input input{border-radius:0px 100px 100px 100px;border:1px solid rgba(105,105,105,0.6);background:#FFFFFF;margin:1.5px 0;padding:-1px 0;}
+.widget-input input:hover{background:rgba(105,105,105,0.7); color:#FFFFFF;}
+.widget-input{border-left:2px solid #d62626;padding:0 0 0 0.5em;}
+
+
+/* =======================================额外css========================================= */
+
+
 body {
   margin: 0;
 }
